@@ -23,6 +23,7 @@ const Home = () => {
               </div>
               <div className="md-col-span xl:col-span-2">
                   <TradingViewWidget
+                      className=""
                       title="Stock Heatmap"
                       scriptUrl={`${scriptUrl}stock-heatmap.js`}
                       config={HEATMAP_WIDGET_CONFIG}
