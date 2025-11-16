@@ -5,6 +5,7 @@ import Image from "next/image";
 import {headers} from "next/headers";
 import {redirect} from "next/navigation";
 
+
 const Layout = async ({ children }: { children : React.ReactNode }) => {
   return (
         <main className="auth-layout">
